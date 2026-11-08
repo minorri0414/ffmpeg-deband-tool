@@ -1,0 +1,34 @@
+# 忽略：视频与中间产物
+*.mp4
+*.mkv
+*.mov
+*.flv
+*.ts
+*.avi
+*.hevc
+*.raw
+*.yuv
+
+# 忽略：运行日志与临时文件
+*.log
+*.tmp
+_temp/
+_out/
+
+# 忽略：测量用的图片输出
+*.png
+*.jpg
+*.jpeg
+!docs/images/*.png
+
+# 忽略：系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# 忽略：Python
+__pycache__/
+*.pyc
+.venv/
