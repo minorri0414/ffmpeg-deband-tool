@@ -55,7 +55,15 @@
 
 下载 [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) 的 full build，解压后把 `bin` 目录加进系统 PATH。
 
-### 2. 跑
+### 2. 拿到脚本
+
+**推荐**：在 [Releases](../../releases) 页下载 `ffmpeg-deband-tool-vX.zip`，解压即用。
+
+或者 `git clone` 本仓库。
+
+> ⚠️ 不要直接在网页上「右键 → 链接另存为」保存 `.bat`。那样拿到的是 LF 换行，Windows 批处理会解析失败（报 `'xxx' is not recognized`）。ZIP 和 clone 都会保留 CRLF。
+
+### 3. 跑
 
 双击 `src/去色带-单文件.bat`：
 
